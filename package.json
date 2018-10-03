@@ -1,11 +1,42 @@
 {
-  "name": "react-native-numeric-input",
-  "version": "1.5.0",
-  "description": "a stylish numeric input for react native",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "react-native-numeric-input",
+  "_id": "react-native-numeric-input@1.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-YTe1StXFBtpEdn27Huasx9Oh1gBPoK1aVqwR0Y1l3dnzRoYegseIDuJk/+G75i60P/Qj/LK3bgJKP+OmGWlOfw==",
+  "_location": "/react-native-numeric-input",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-numeric-input",
+    "name": "react-native-numeric-input",
+    "escapedName": "react-native-numeric-input",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-numeric-input/-/react-native-numeric-input-1.4.0.tgz",
+  "_shasum": "b02d472dabd8084dfd06dc14e03f36296189d64d",
+  "_spec": "react-native-numeric-input",
+  "_where": "/Users/DinamickaMacOS/Documents/projects/fsm/fsmChecklist/FSMChecklist",
+  "author": {
+    "name": "omri himelbrand",
+    "email": "himelbrand@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/himelbrand/react-native-numeric-input/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.6.1"
+  },
+  "deprecated": false,
+  "description": "a stylish numeric input for react native",
+  "homepage": "https://github.com/himelbrand/react-native-numeric-input",
   "keywords": [
     "react-native",
     "react-component",
@@ -20,23 +51,18 @@
     "input",
     "numeric"
   ],
-  "author": {
-    "name": "omri himelbrand",
-    "email": "himelbrand@gmail.com"
-  },
-  "homepage": "https://github.com/himelbrand/react-native-numeric-input",
-  "bugs": {
-    "url": "https://github.com/himelbrand/react-native-numeric-input/issues"
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-numeric-input",
+  "peerDependencies": {
+    "react-native-vector-icons": "^4.*"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/himelbrand/react-native-numeric-input.git"
   },
-  "license": "MIT",
-  "dependencies": {
-    "prop-types": "^15.6.1"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "peerDependencies": {
-    "react-native-vector-icons": "^4.*"
-  }
+  "version": "1.4.0"
 }

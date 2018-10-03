@@ -15,8 +15,8 @@ function _handlePress(callback){
 const Button = (props) => {
     return (
         Platform.OS === 'ios'
-        ? <TouchableOpacity disabled={props.disabled} style={props.style} onPress={() => _handlePress(props.onPress)}>{props.children}</TouchableOpacity> 
-        : <TouchableNativeFeedback  disabled={props.disabled} onPress={() => _handlePress(props.onPress)}><View style={props.style}>{props.children}</View></TouchableNativeFeedback>
+        ? <TouchableOpacity hitSlop={{top: 20, left: 20, right: 20, left: 20}} disabled={props.disabled} style={props.style} onPress={() => _handlePress(props.onPress)}><View>{props.children}</View></TouchableOpacity> 
+        : <TouchableNativeFeedback hitSlop={{top: 20, left: 20, right: 20, left: 20}} disabled={props.disabled} onPress={() => _handlePress(props.onPress)}><View style={props.style}>{props.children}</View></TouchableNativeFeedback>
     )
 }
 
